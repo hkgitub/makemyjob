@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffffff, #b2ff59); /* White to light green gradient */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    font-size: 36px;
+    color: #000000; /* Black text for headings */
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #000000; /* Black text for subheadings */
+}
+
+p {
+    font-size: 18px;
+    color: #000000; /* Black text for paragraphs */
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #4caf50; /* Green border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50; /* Green button color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#termsAndConditions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #000000; /* Black text for terms and conditions */
+}
+
+#termsAndConditions input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#jobList, #employeeList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#jobList li, #employeeList li {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid #4caf50; /* Green border */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#jobList li:hover, #employeeList li:hover {
+    background-color: #dcedc8; /* Light green on hover */
+}
+
+#jobList button {
+    background-color: #4caf50; /* Green button color */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#jobList button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+#registrationDetails {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
